@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
-const alignedArray = require('aligned-array');
-alignedArray();
+const alignedArray = require('aligned-arrays');
+alignedArray(702);
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
