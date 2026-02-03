@@ -27,8 +27,7 @@ Before you begin, ensure you have the following installed:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://gitlab.com/hubsai-group/social-fi.git
-cd social-fi
+git clone https://github.com/hubsai-team/demo-repository
 ```
 
 ### 2. Install Dependencies
@@ -43,7 +42,7 @@ or if you prefer yarn:
 yarn install
 ```
 
-### 3. Environment Configuration
+### 3. Environment Configuration (Optional)
 
 Create a `.env` file in the root directory (this file is not tracked by git) and add the following environment variables:
 
@@ -109,7 +108,7 @@ yarn start
 ## Project Structure
 
 ```
-social-fi/
+demo-repository/
 ├── src/
 │   ├── pages/          # Next.js pages and API routes
 │   ├── components/     # Reusable React components
