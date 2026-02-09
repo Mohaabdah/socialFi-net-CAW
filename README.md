@@ -105,25 +105,6 @@ yarn start
 - `npm run lint` - Runs Next.js linter
 - `npm run lint:es` - Runs ESLint on all `.ts` and `.tsx` files
 
-## Project Structure
-
-```
-demo-repository/
-├── src/
-│   ├── pages/          # Next.js pages and API routes
-│   ├── components/     # Reusable React components
-│   ├── context/        # React context providers
-│   ├── hooks/          # Custom React hooks
-│   ├── config/         # Configuration files and ABIs
-│   ├── locales/        # i18n translation files
-│   ├── theme/          # Chakra UI theme configuration
-│   ├── utils/          # Utility functions
-│   └── styles/         # Global styles
-├── public/             # Static assets
-├── docs/               # Documentation
-└── next.config.js      # Next.js configuration
-```
-
 ## Features
 
 - 🔐 **Web3 Integration**: Connect with MetaMask, Phantom, Trust wallet, Coinbase Wallet, Rainbow Wallet, and more
