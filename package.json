@@ -4,8 +4,8 @@
   "version": "0.2.3",
   "scripts": {
     "dev": "concurrently \"node server/app.js\" \"vite\"",
-    "build": "concurrently \"node server/server.js\" \" vite build\"",
-    "postinstall": "npm run dev"
+    "build": "vite build",
+    "start": "node server/app.js"
   },
   "dependencies": {
     "@alch/alchemy-web3": "^1.4.7",
